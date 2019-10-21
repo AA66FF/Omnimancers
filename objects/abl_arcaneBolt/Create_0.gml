@@ -11,8 +11,8 @@ sizeMod = 2;
 timeMod = 1;
 extraProjectiles = 0;
 
-casterBuffs = [];
-casterBuffsApplied = false;
+casterBuffsPassive = [];
+casterBuffsOnCast = [];
 
 caster = obj_player;
 casting = false;

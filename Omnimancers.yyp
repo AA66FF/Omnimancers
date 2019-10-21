@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4ae14b5f-264b-4b35-bf0f-22b91635dcdd",
+            "Value": {
+                "id": "4de00914-39a7-4548-932b-684fcf8746ed",
+                "resourcePath": "sprites\\spr_arcaneMissile\\spr_arcaneMissile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51f34d11-f57a-4c84-9768-22a4b636955f",
             "Value": {
                 "id": "78094ea5-e708-48e2-8620-cd0134613ac4",
@@ -172,6 +180,14 @@
                 "id": "22f42cd0-a4a4-4b7f-8fea-b1144a0b1600",
                 "resourcePath": "sprites\/spr_playerPlaceholder\/spr_playerPlaceholder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "724f2679-3d01-4376-a7d0-14b5c255f452",
+            "Value": {
+                "id": "67c923d4-736a-49d5-b390-51fc18a89c3b",
+                "resourcePath": "objects\\obj_arcaneMissile\\obj_arcaneMissile.yy",
+                "resourceType": "GMObject"
             }
         },
         {

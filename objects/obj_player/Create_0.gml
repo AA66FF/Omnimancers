@@ -15,7 +15,7 @@ jumpCooldown = 0;
 jumpCooldownAdd = 10;
 
 baseWalkingSpeed = 1.5;
-walkingSpeed = baseWalkingSpeed+10;
+walkingSpeed = baseWalkingSpeed;
 groundedControl = 0.3;
 airborneControl = 0.03;
 gravityAcc = 0.2;
