@@ -6,3 +6,7 @@ if image_xscale > 0 {
 } else if image_xscale < 0 {
 	x -= projectileSpeed;
 }
+
+if abs(projectileSpeed) < maxProjectileSpeed {
+	projectileSpeed += accelSpeed;
+}

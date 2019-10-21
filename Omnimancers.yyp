@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "f48edd0f-5cb5-4862-873e-79a07f62c336",
-            "Value": {
-                "id": "54df4afc-2e24-460f-a0ec-38c9120e9c06",
-                "resourcePath": "scripts\/castArcaneBolt\/castArcaneBolt.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f6e045bf-b0b8-4efd-89f7-b944993d14b8",
             "Value": {
                 "id": "945a1741-bdf2-42ea-9b9a-6de731ce35e0",
@@ -409,8 +401,7 @@
     ],
     "script_order": [
         "00c9fb9c-e7fa-4aa9-a636-e36c09b93b06",
-        "69f2f043-5319-454c-849c-c0c4baa16be2",
-        "f48edd0f-5cb5-4862-873e-79a07f62c336"
+        "69f2f043-5319-454c-849c-c0c4baa16be2"
     ],
     "tutorial": ""
 }

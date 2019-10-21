@@ -16,17 +16,38 @@ if grounded {
 
 // Input
 
-if !castingAbility {
+if castingAbility == -1 {
 	if keyboard_check(ord("Z")) {
 		delay = abilities[0].delay;
 		animationTime = abilities[0].animationTime;
 		delayedAbility = 0;
-		castingAbility = true;
+		castingAbility = 0;
+		state = ABILITY_FORWARD;
+	}
+	if keyboard_check(ord("X")) {
+		delay = abilities[1].delay;
+		animationTime = abilities[1].animationTime;
+		delayedAbility = 1;
+		castingAbility = 1;
+		state = ABILITY_FORWARD;
+	}
+	if keyboard_check(ord("C")) {
+		delay = abilities[2].delay;
+		animationTime = abilities[2].animationTime;
+		delayedAbility = 2;
+		castingAbility = 2;
+		state = ABILITY_FORWARD;
+	}
+	if keyboard_check(ord("V")) {
+		delay = abilities[3].delay;
+		animationTime = abilities[3].animationTime;
+		delayedAbility = 3;
+		castingAbility = 3;
 		state = ABILITY_FORWARD;
 	}
 }
 
-if !castingAbility {
+if castingAbility == -1 {
 	if grounded {
 		if keyboard_check(ord("A")) and !keyboard_check(ord("D")) {
 			xAcc = -groundedControl*walkingSpeed;
@@ -104,10 +125,19 @@ if place_meeting(x,y+yVel,obj_groundBlock) {
 switch (state) {
 	case IDLING:
 		sprite_index = spr_mageIdle;
+		image_speed = 1;
 		break;
 	case WALKING:
 		sprite_index = spr_mageWalk;
+		image_speed = walkingSpeed/baseWalkingSpeed;
 		break;
+	case ABILITY_FORWARD:
+		sprite_index = spr_mageWalk;
+		image_speed = 0;
+		if castingAbility > -1 {
+			var abilityAnimTime = abilities[castingAbility].animationTime
+			image_index = round(((abilityAnimTime-animationTime)/abilityAnimTime)*image_number);
+		}
 }
 
 // Position
@@ -141,19 +171,13 @@ if grounded {
 	extraJumps = extraJumpsCap;
 }
 animationTime -= 1;
-if animationTime > 0 {
-	castingAbility = true;
-} else {
-	castingAbility = false;
+if animationTime < 0 {
+	castingAbility = -1;
 }
 
 delay -= 1;
 if delay == 0 {
-	switch (object_get_name(abilities[delayedAbility].object_index)) {
-		case "abl_arcaneBolt":
-			castArcaneBolt();
-			break;
-	}
+	abilities[delayedAbility].casting = true;
 	delayedAbility = -1;
 }
 jumpCooldown -= 1;

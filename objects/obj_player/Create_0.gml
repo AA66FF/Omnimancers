@@ -14,7 +14,8 @@ baseFriction = 0.15;
 jumpCooldown = 0;
 jumpCooldownAdd = 10;
 
-walkingSpeed = 1.5;
+baseWalkingSpeed = 1.5;
+walkingSpeed = baseWalkingSpeed+10;
 groundedControl = 0.3;
 airborneControl = 0.03;
 gravityAcc = 0.2;
@@ -35,9 +36,14 @@ mp = 100;
 maxMp = 100;
 
 var startingPrimary = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
+var startingSecondary = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
+var startingUtility = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
+var startingUltimate = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
+var startingPassive1 = "";
+var startingPassive2 = "";
 
 abilitySlotTypes = [PRIMARY,SECONDARY,UTILITY,ULTIMATE,PASSIVE,PASSIVE];
-abilities = [startingPrimary,"","","","",""];
+abilities = [startingPrimary,startingSecondary,startingUtility,startingUltimate,startingPassive1,startingPassive2];
 
 xVel = 0;
 yVel = 0;
