@@ -319,6 +319,22 @@
             }
         },
         {
+            "Key": "b773ded4-e912-46c6-830f-63465bc48ae0",
+            "Value": {
+                "id": "73260cfe-8caa-4413-9062-97a9cad3e333",
+                "resourcePath": "views\\b773ded4-e912-46c6-830f-63465bc48ae0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bbe88c74-2bcb-4680-9f7a-ce3393d8d2ce",
+            "Value": {
+                "id": "f19bf794-5c4f-4a0c-8da7-b070bc4ba3eb",
+                "resourcePath": "objects\\abl_arcaneMissile\\abl_arcaneMissile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c2cd5499-24ef-44d5-a59e-1bb3681698f0",
             "Value": {
                 "id": "c89c1fe5-195a-453a-994e-577fdab7f44b",

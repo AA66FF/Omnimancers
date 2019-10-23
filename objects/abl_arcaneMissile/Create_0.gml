@@ -1,12 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-type = PRIMARY;
-baseAnimTime = 60;
-baseDelay = 15;
+
+type = SECONDARY;
+baseAnimTime = 90;
+baseDelay = 60;
+baseCooldown = 360;
 
 damageMod = 1;
 critChanceMod = 1;
+cooldownMod = 1;
 cooldown = 0;
 sizeMod = 2;
 timeMod = 1;

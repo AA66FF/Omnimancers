@@ -17,28 +17,28 @@ if grounded {
 // Input
 
 if castingAbility == -1 {
-	if keyboard_check(ord("Z")) {
+	if keyboard_check(ord("Z")) and abilities[0].cooldown <= 0 {
 		delay = abilities[0].delay;
 		animationTime = abilities[0].animationTime;
 		delayedAbility = 0;
 		castingAbility = 0;
 		state = ABILITY_FORWARD;
 	}
-	if keyboard_check(ord("X")) {
+	if keyboard_check(ord("X")) and abilities[1].cooldown <= 0 {
 		delay = abilities[1].delay;
 		animationTime = abilities[1].animationTime;
 		delayedAbility = 1;
 		castingAbility = 1;
 		state = ABILITY_FORWARD;
 	}
-	if keyboard_check(ord("C")) {
+	if keyboard_check(ord("C")) and abilities[2].cooldown <= 0 {
 		delay = abilities[2].delay;
 		animationTime = abilities[2].animationTime;
 		delayedAbility = 2;
 		castingAbility = 2;
 		state = ABILITY_FORWARD;
 	}
-	if keyboard_check(ord("V")) {
+	if keyboard_check(ord("V")) and abilities[3].cooldown <= 0 {
 		delay = abilities[3].delay;
 		animationTime = abilities[3].animationTime;
 		delayedAbility = 3;

@@ -36,9 +36,9 @@ mp = 100;
 maxMp = 100;
 
 var startingPrimary = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
-var startingSecondary = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
-var startingUtility = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
-var startingUltimate = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
+var startingSecondary = instance_create_layer(0,0,"Foreground",abl_arcaneMissile);
+var startingUtility = instance_create_layer(0,0,"Foreground",abl_arcaneMissile);
+var startingUltimate = instance_create_layer(0,0,"Foreground",abl_arcaneMissile);
 var startingPassive1 = "";
 var startingPassive2 = "";
 
