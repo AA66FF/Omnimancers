@@ -17,3 +17,7 @@
 #macro UTILITY 2
 #macro ULTIMATE 3
 #macro PASSIVE 4
+
+#macro PLAINS 0
+#macro FLAT 1
+#macro HILLS 2

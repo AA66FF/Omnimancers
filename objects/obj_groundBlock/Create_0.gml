@@ -3,6 +3,10 @@
 
 depth = 0;
 
+blockId = 0;
+
+terrain = false;
+
 image_xscale = 2;
 image_yscale = 2;
 

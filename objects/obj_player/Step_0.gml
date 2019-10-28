@@ -146,11 +146,11 @@ if abs(xVel) > walkingSpeed {
 }
 
 if xVel != 0 and frictionEnabled {
-	if sign(xVel-baseFriction*sign(xVel)) != sign(xVel) {
+	if sign(xVel-baseFriction*walkingSpeed*sign(xVel)) != sign(xVel) {
 		xAcc = 0;
 		xVel = 0;
 	} else {
-		xAcc -= baseFriction*sign(xVel);
+		xAcc -= baseFriction*walkingSpeed*sign(xVel);
 	}
 }
 

@@ -15,14 +15,14 @@ jumpCooldown = 0;
 jumpCooldownAdd = 10;
 
 baseWalkingSpeed = 1.5;
-walkingSpeed = baseWalkingSpeed;
+walkingSpeed = 20;
 groundedControl = 0.3;
 airborneControl = 0.03;
 gravityAcc = 0.2;
-jumpHeight = 40;
+jumpHeight = 80;
 jumpPower = 2*gravityAcc*sqrt((jumpHeight-2)/gravityAcc);
 extraJumps = 0;
-extraJumpsCap = 0;
+extraJumpsCap = 1000;
 
 hp = 40;
 maxHp = 40;

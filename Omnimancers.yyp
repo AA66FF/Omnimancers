@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "212a8c7b-33c9-4267-96c1-2f9b9f630a77",
+            "Value": {
+                "id": "5a0ad47c-73f5-4274-ad40-804467f80f70",
+                "resourcePath": "scripts\/loadBlock\/loadBlock.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22b4a9fb-4fba-4ca5-ab66-a148a75c25ce",
             "Value": {
                 "id": "a6b9d927-c108-41d3-972f-002c6919537f",
@@ -106,7 +114,7 @@
             "Key": "48f03b05-dc97-47cf-b0b5-398e06c53d17",
             "Value": {
                 "id": "b2fb837b-04e0-4579-836c-1f6698760cef",
-                "resourcePath": "objects\/obj_worldGenerator\/obj_worldGenerator.yy",
+                "resourcePath": "objects\/obj_terrainGenerator\/obj_terrainGenerator.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -114,7 +122,7 @@
             "Key": "4ae14b5f-264b-4b35-bf0f-22b91635dcdd",
             "Value": {
                 "id": "4de00914-39a7-4548-932b-684fcf8746ed",
-                "resourcePath": "sprites\\spr_arcaneMissile\\spr_arcaneMissile.yy",
+                "resourcePath": "sprites\/spr_arcaneMissile\/spr_arcaneMissile.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -135,11 +143,27 @@
             }
         },
         {
+            "Key": "5a73120b-8921-41d2-89e0-44c26b02798e",
+            "Value": {
+                "id": "f75132fd-64dc-4616-8f93-5e00291ad3c9",
+                "resourcePath": "scripts\/loadChunk\/loadChunk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d321eb1-58dd-49a6-8748-1e0d9d9d7d11",
             "Value": {
                 "id": "faeabe46-ffbc-43c0-b443-285b17934807",
                 "resourcePath": "views\/5d321eb1-58dd-49a6-8748-1e0d9d9d7d11.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6083b9e7-a66d-4c95-8b8c-55e2a78c17a1",
+            "Value": {
+                "id": "a547a5f7-d3d9-4335-a13b-a396d662c024",
+                "resourcePath": "scripts\/unloadBlock\/unloadBlock.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -186,7 +210,7 @@
             "Key": "724f2679-3d01-4376-a7d0-14b5c255f452",
             "Value": {
                 "id": "67c923d4-736a-49d5-b390-51fc18a89c3b",
-                "resourcePath": "objects\\obj_arcaneMissile\\obj_arcaneMissile.yy",
+                "resourcePath": "objects\/obj_arcaneMissile\/obj_arcaneMissile.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "91068148-198a-4bbe-9047-b1ed9cd9375c",
+            "Value": {
+                "id": "0a8c3488-7380-418a-839f-f06a553b892c",
+                "resourcePath": "sprites\/spr_chunk\/spr_chunk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "91363827-cfbc-41e9-9fe9-b7d098be33c1",
             "Value": {
                 "id": "3a8fb97b-f05e-43ed-a754-27af3f61c28f",
@@ -260,6 +292,14 @@
                 "id": "695d98ba-9274-4a1d-a43a-b99f4c99c1a0",
                 "resourcePath": "views\/92c2d4e1-758a-4b70-96b9-a8d210de0075.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9a2c751b-8656-492f-81ae-65fbedb1ec7f",
+            "Value": {
+                "id": "a4aff59e-fbad-4b41-8099-802b26b08402",
+                "resourcePath": "objects\/obj_chunk\/obj_chunk.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -322,7 +362,7 @@
             "Key": "b773ded4-e912-46c6-830f-63465bc48ae0",
             "Value": {
                 "id": "73260cfe-8caa-4413-9062-97a9cad3e333",
-                "resourcePath": "views\\b773ded4-e912-46c6-830f-63465bc48ae0.yy",
+                "resourcePath": "views\/b773ded4-e912-46c6-830f-63465bc48ae0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -330,7 +370,7 @@
             "Key": "bbe88c74-2bcb-4680-9f7a-ce3393d8d2ce",
             "Value": {
                 "id": "f19bf794-5c4f-4a0c-8da7-b070bc4ba3eb",
-                "resourcePath": "objects\\abl_arcaneMissile\\abl_arcaneMissile.yy",
+                "resourcePath": "objects\/abl_arcaneMissile\/abl_arcaneMissile.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -359,6 +399,14 @@
             }
         },
         {
+            "Key": "d912bcc6-3054-40a9-9c24-04bbbe862815",
+            "Value": {
+                "id": "d53e330c-db1c-4633-b41b-c00957bf9c47",
+                "resourcePath": "scripts\/createBlock\/createBlock.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dd808029-430e-4f60-a03c-f4ab12f89867",
             "Value": {
                 "id": "1f7e150c-dd39-4ddb-be3a-e0412c47341d",
@@ -371,6 +419,22 @@
             "Value": {
                 "id": "5ec3ad73-c770-4ef8-a77a-e7b3813e0c7d",
                 "resourcePath": "sprites\/spr_backgroundPlaceholder\/spr_backgroundPlaceholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e78ed8d4-aba9-4458-b5c1-7bb0f2c046f8",
+            "Value": {
+                "id": "28ce0280-2a64-400d-92d0-575c32b6abd7",
+                "resourcePath": "objects\/obj_world\/obj_world.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed90a2f6-f534-4f8a-9472-4e9d31ad5ce3",
+            "Value": {
+                "id": "db20ccbc-f197-4125-8040-11e7b6ab946f",
+                "resourcePath": "sprites\/spr_undergroundPlaceholder\/spr_undergroundPlaceholder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +460,14 @@
                 "id": "0de04c69-2a4d-4be4-a11c-d69e620509e3",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4cb4dc3-bc81-4d79-88bc-128a8a025a05",
+            "Value": {
+                "id": "d5817152-da66-41c2-803b-34ebf72bb07e",
+                "resourcePath": "scripts\/unloadChunk\/unloadChunk.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -433,7 +505,12 @@
     ],
     "script_order": [
         "00c9fb9c-e7fa-4aa9-a636-e36c09b93b06",
-        "69f2f043-5319-454c-849c-c0c4baa16be2"
+        "69f2f043-5319-454c-849c-c0c4baa16be2",
+        "d912bcc6-3054-40a9-9c24-04bbbe862815",
+        "6083b9e7-a66d-4c95-8b8c-55e2a78c17a1",
+        "212a8c7b-33c9-4267-96c1-2f9b9f630a77",
+        "5a73120b-8921-41d2-89e0-44c26b02798e",
+        "f4cb4dc3-bc81-4d79-88bc-128a8a025a05"
     ],
     "tutorial": ""
 }
