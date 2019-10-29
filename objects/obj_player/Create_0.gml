@@ -15,7 +15,7 @@ jumpCooldown = 0;
 jumpCooldownAdd = 10;
 
 baseWalkingSpeed = 1.5;
-walkingSpeed = 20;
+walkingSpeed = 1.5;
 groundedControl = 0.3;
 airborneControl = 0.03;
 gravityAcc = 0.2;
@@ -37,8 +37,8 @@ maxMp = 100;
 
 var startingPrimary = instance_create_layer(0,0,"Foreground",abl_arcaneBolt);
 var startingSecondary = instance_create_layer(0,0,"Foreground",abl_arcaneMissile);
-var startingUtility = instance_create_layer(0,0,"Foreground",abl_arcaneMissile);
-var startingUltimate = instance_create_layer(0,0,"Foreground",abl_arcaneMissile);
+var startingUtility = instance_create_layer(0,0,"Foreground",abl_arcaneBlast);
+var startingUltimate = instance_create_layer(0,0,"Foreground",abl_arcaneMeteor);
 var startingPassive1 = "";
 var startingPassive2 = "";
 

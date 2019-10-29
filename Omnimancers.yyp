@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "074df7d6-fbe9-425b-bfe4-a7ef4de9bcc8",
+            "Value": {
+                "id": "8ff3b90c-d31b-4805-989b-4f9147a32b98",
+                "resourcePath": "objects\\abl_arcaneBlast\\abl_arcaneBlast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07cdb937-cbef-4bdb-94a5-b08b0b1bef11",
             "Value": {
                 "id": "ba70b710-270f-41a6-afbd-19231ef654d6",
@@ -47,11 +55,27 @@
             }
         },
         {
+            "Key": "09f8ee51-6212-4325-88aa-1099f061b4b3",
+            "Value": {
+                "id": "c5c6813e-e632-4ca1-adb1-7c90f444f22b",
+                "resourcePath": "objects\\obj_arcaneMeteor\\obj_arcaneMeteor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d66c85b-3dfe-4ca1-b476-b66097df0144",
             "Value": {
                 "id": "4f95fe13-b3c2-4995-b374-72ce67ad1be9",
                 "resourcePath": "views\/1d66c85b-3dfe-4ca1-b476-b66097df0144.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1dc3cedc-2b09-4092-9dcb-b2599715f613",
+            "Value": {
+                "id": "ff041d6f-c272-4346-9d3e-201a3d37644a",
+                "resourcePath": "objects\\obj_enemyWalking\\obj_enemyWalking.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -167,6 +191,22 @@
             }
         },
         {
+            "Key": "61026869-f356-4c8b-85c2-ca9379a09e05",
+            "Value": {
+                "id": "b6639f31-4ed4-4af9-9e42-26c44190dec1",
+                "resourcePath": "sprites\\spr_arcaneMeteor\\spr_arcaneMeteor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6474ac90-f4bd-483b-b316-71c4256f3ba4",
+            "Value": {
+                "id": "9f6621da-d752-4e5d-bf98-d667ee5ecd20",
+                "resourcePath": "objects\\obj_arcaneBlast\\obj_arcaneBlast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "679157e9-217b-4bd6-a3e4-fac277d8c28e",
             "Value": {
                 "id": "f27e57c2-b642-4527-bbd8-4a248b8baee9",
@@ -247,6 +287,14 @@
             }
         },
         {
+            "Key": "8273ec75-430f-46b0-a6c7-3acd48c8f9b0",
+            "Value": {
+                "id": "e9fca35c-119d-4437-9d5a-bdd56207ffcd",
+                "resourcePath": "views\\8273ec75-430f-46b0-a6c7-3acd48c8f9b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88de0574-ab5b-4f47-8be8-ac7fcd603c02",
             "Value": {
                 "id": "62392d1c-38ac-46b2-84d5-e6cb3da22dcd",
@@ -260,6 +308,14 @@
                 "id": "3a7511f3-65c4-45d5-8077-01682ac85160",
                 "resourcePath": "objects\/obj_player\/obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9075b3a5-ae2c-4856-9906-093a12ad491e",
+            "Value": {
+                "id": "30bd2272-39b6-4043-b5e2-c81d792a8b0a",
+                "resourcePath": "views\\9075b3a5-ae2c-4856-9906-093a12ad491e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -415,11 +471,27 @@
             }
         },
         {
+            "Key": "e3c51450-4f36-4291-a450-7899cca22f90",
+            "Value": {
+                "id": "a6a71a60-156f-4243-917d-bcee96d1f72f",
+                "resourcePath": "objects\\abl_arcaneMeteor\\abl_arcaneMeteor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e520d484-ad03-46b1-924e-13a2892ae712",
             "Value": {
                 "id": "5ec3ad73-c770-4ef8-a77a-e7b3813e0c7d",
                 "resourcePath": "sprites\/spr_backgroundPlaceholder\/spr_backgroundPlaceholder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6c03f39-03c0-47a1-a8dd-f4454b590f79",
+            "Value": {
+                "id": "db18fb6a-e52f-4069-a531-fe50926caf87",
+                "resourcePath": "views\\e6c03f39-03c0-47a1-a8dd-f4454b590f79.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -500,6 +572,14 @@
                 "id": "f7f23f76-072f-4db0-98a5-49aa7d15b01e",
                 "resourcePath": "views\/f907eb4a-853c-46ad-abbe-d2efaf9928bd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f9895cbd-e05d-4779-93d5-ad95f1d6cf95",
+            "Value": {
+                "id": "0ab6018f-1819-467c-b6b2-c94f2c3e2d98",
+                "resourcePath": "sprites\\spr_arcaneBlast\\spr_arcaneBlast.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
